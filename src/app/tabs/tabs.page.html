@@ -1,20 +1,49 @@
 <ion-tabs>
+  <ion-toolbar>
+    <ion-thumbnail slot="start">
+      <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+    </ion-thumbnail>
+    <ion-label>
+      tak segampang itu
+    </ion-label>
+    <ion-buttons slot="primary">
+      <ion-button>
+        <ion-icon slot="icon-only" color="medium" name="arrow-forward" md="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons><ion-buttons slot="primary">
+      <ion-button>
+        <ion-icon slot="icon-only" color="danger" name="heart" md="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button>
+        <ion-icon slot="icon-only" color="medium" name="pause" md="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
 
   <ion-tab-bar slot="bottom">
     <ion-tab-button tab="tab1">
-      <ion-icon aria-hidden="true" name="triangle"></ion-icon>
-      <ion-label>Tab 1</ion-label>
+      <ion-icon aria-hidden="true" color="medium" name="home"></ion-icon>
+      <ion-label color="success">Home</ion-label>
     </ion-tab-button>
 
     <ion-tab-button tab="tab2">
-      <ion-icon aria-hidden="true" name="ellipse"></ion-icon>
-      <ion-label>Tab 2</ion-label>
+      <ion-icon aria-hidden="true" color="medium" name="search"></ion-icon>
+      <ion-label color="success">Search</ion-label>
     </ion-tab-button>
 
     <ion-tab-button tab="tab3">
-      <ion-icon aria-hidden="true" name="square"></ion-icon>
-      <ion-label>Tab 3</ion-label>
+      <ion-icon aria-hidden="true" color="medium" name="Library"></ion-icon>
+      <ion-label color="success">Library</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab4">
+      <ion-icon aria-hidden="true" color="medium" name="person"></ion-icon>
+      <ion-label color="success">Account</ion-label>
     </ion-tab-button>
   </ion-tab-bar>
+
 
 </ion-tabs>

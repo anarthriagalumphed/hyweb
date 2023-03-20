@@ -1,17 +1,101 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <h4>Good morning</h4>
+
+    <ion-buttons slot="primary">
+      <ion-button>
+        <ion-icon slot="icon-only" color="medium" name="notifications-outline" md="ellipsis-vertical"></ion-icon>
+        <ion-badge color="danger">100</ion-badge>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button>
+        <ion-icon slot="icon-only" color="medium" name="time-outline" md="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button>
+        <ion-icon slot="icon-only" color="medium" name="settings-outline" md="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-progress-bar color="success" type="indeterminate"></ion-progress-bar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-searchbar placeholder="Podcast"></ion-searchbar>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+    </ion-thumbnail>
+    <ion-label>
+      jedag jedug dj tiktok yg menggairahkan semangatmu allahuakbar tuhan yesus yang memberkati
+    </ion-label>
+    <ion-thumbnail>
+      <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+    </ion-thumbnail>
+    <ion-label>
+      hot hits indonesia
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+    </ion-thumbnail>
+    <ion-label>
+      lagu firal barat
+    </ion-label>
+    <ion-thumbnail>
+      <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+    </ion-thumbnail>
+    <ion-label>
+      generasi
+      <ion-icon color="success" name="stats-chart"></ion-icon>
+    </ion-label>
+  </ion-item>
+  <br>
+  <ion-item>
+
+    <ion-thumbnail>
+      <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+    </ion-thumbnail>
+    <ion-label>
+      Get ready for ramadhan with spotifu
+    </ion-label>
+  </ion-item>
+  <h4>Based on your recent listening</h4>
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Here's a small text description for the card content. Nothing more, nothing less.
+    </ion-card-content>
+  </ion-card>
+  <h4>Recently played</h4>
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+  </ion-card>
+
+
+
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Here's a small text description for the card content. Nothing more, nothing less.
+    </ion-card-content>
+  </ion-card>
+
+
 </ion-content>
